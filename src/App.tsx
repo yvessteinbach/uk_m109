@@ -58,7 +58,7 @@ const offerItems = [
   { pos: 11, qty: 1, name: 'Antivirus Windows Defender', price: 0.00 },
   { pos: 12, qty: 1, name: 'Wartungsvertrag', price: 150.00, unit: '/Mt.' },
   { pos: 13, qty: 1, name: 'Kleinmaterialpauschale', price: 350.00 },
-  { pos: 14, qty: 60, name: 'Projektaufwand (Std)', price: 7200.00 },
+  { pos: 14, qty: 60, name: 'Projektaufwand (Std)', price: 120.00 },
 ];
 
 const team = [
@@ -334,7 +334,18 @@ export default function App() {
                     CHF 36'014.60
                   </p>
                 </div>
-                <button className="flex items-center gap-2 bg-white border border-gray-200 text-[#1a1a1a] px-6 py-3 rounded-xl font-medium hover:bg-gray-50 transition-colors shadow-sm">
+                <button
+                  onClick={() => {
+                    const link = document.createElement('a');
+                    link.href = 'https://cdn.jsdelivr.net/gh/yvessteinbach/uk_m109@main/offerte.pdf';
+                    link.download = 'Offerte-HfZ.pdf';
+                    link.target = '_blank';
+                    document.body.appendChild(link);
+                    link.click();
+                    document.body.removeChild(link);
+                  }}
+                  className="flex items-center gap-2 bg-white border border-gray-200 text-[#1a1a1a] px-6 py-3 rounded-xl font-medium hover:bg-gray-50 transition-colors shadow-sm"
+                >
                   <Download size={18} />
                   <span>Offerte als PDF</span>
                 </button>
