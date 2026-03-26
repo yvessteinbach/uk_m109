@@ -327,7 +327,7 @@ export default function App() {
                 <h3 className="text-2xl font-bold mb-2">Projekt Migration HfZ</h3>
                 <p className="text-gray-500">Referenz: Hochschule für Zahntechnik | Nr. 001</p>
               </div>
-              <div className="flex flex-col md:flex-row items-start md:items-center gap-6">
+              <div className="flex flex-col md:flex-row items-end md:items-end gap-6">
                 <div className="text-left md:text-right">
                   <p className="text-sm text-gray-500 mb-1">Gesamttotal inkl. MWST</p>
                   <p className="text-4xl font-bold text-[#bce055] bg-[#1a1a1a] inline-block px-6 py-2 rounded-xl">
