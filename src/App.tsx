@@ -50,11 +50,11 @@ const offerItems = [
   { pos: 3, qty: 1, name: 'Fortinet FortiGate-90G', price: 1599.00 },
   { pos: 4, qty: 1, name: 'Fortinet Enterprise Protection', price: 1999.00, unit: '/P.a' },
   { pos: 5, qty: 1, name: 'Ubiquiti UniFi Pro Max 48 PoE', price: 1434.00 },
-  { pos: 6, qty: 2, name: 'Ubiquiti UniFi Pro Max 24 PoE', price: 1728.00 },
-  { pos: 7, qty: 15, name: 'Ubiquiti UniFi U7 Pro Max', price: 4410.00 },
+  { pos: 6, qty: 2, name: 'Ubiquiti UniFi Pro Max 24 PoE', price: 864.00 },
+  { pos: 7, qty: 15, name: 'Ubiquiti UniFi U7 Pro Max', price: 294.00 },
   { pos: 8, qty: 1, name: 'HPE ProLiant DL325 Gen11 9115', price: 7435.00 },
   { pos: 9, qty: 1, name: 'Synology DS925+', price: 579.00 },
-  { pos: 10, qty: 4, name: 'Synology Plus Series HAT3300-4T', price: 740.00 },
+  { pos: 10, qty: 4, name: 'Synology Plus Series HAT3300-4T', price: 185.00 },
   { pos: 11, qty: 1, name: 'Antivirus Windows Defender', price: 0.00 },
   { pos: 12, qty: 1, name: 'Wartungsvertrag', price: 150.00, unit: '/Mt.' },
   { pos: 13, qty: 1, name: 'Kleinmaterialpauschale', price: 350.00 },
@@ -62,9 +62,9 @@ const offerItems = [
 ];
 
 const team = [
-  { name: 'Yves Steinbach', role: 'Projektleiter / Autor', img: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Yves' },
-  { name: 'Colin Eckerlin', role: 'System Engineer', img: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Colin' },
-  { name: 'Leon Artime', role: 'System Engineer', img: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Leon' },
+  { name: 'Yves Steinbach', role: 'Projektleiter', img: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Ma' },
+  { name: 'Colin Eckerlin', role: 'System Engineer', img: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Xd' },
+  { name: 'Leon Artime', role: 'System Engineer', img: 'https://api.dicebear.com/7.x/avataaars/svg?seed=va' },
 ];
 
 // --- COMPONENTS ---
@@ -337,7 +337,7 @@ export default function App() {
                 <button
                   onClick={() => {
                     const link = document.createElement('a');
-                    link.href = 'https://cdn.jsdelivr.net/gh/yvessteinbach/uk_m109@main/offerte.pdf';
+                    link.href = 'https://cdn.jsdelivr.net/gh/yvessteinbach/uk_m109@main/Offerte.pdf';
                     link.download = 'Offerte-HfZ.pdf';
                     link.target = '_blank';
                     document.body.appendChild(link);
