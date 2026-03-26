@@ -71,7 +71,7 @@ const team = [
 
 const Logo = () => (
   <img
-    src="./logo_01.png"
+    src="https://cdn.jsdelivr.net/gh/yvessteinbach/uk_m109@main/logo_01.png"
     alt="KlixB IT Logo"
     className="h-10 w-auto"
   />
@@ -79,7 +79,7 @@ const Logo = () => (
 
 const Logo_Dark = () => (
   <img
-    src="./logo_02.png"
+    src="https://cdn.jsdelivr.net/gh/yvessteinbach/uk_m109@main/logo_02.png"
     alt="KlixB IT Logo"
     className="h-10 w-auto"
   />
