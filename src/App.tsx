@@ -401,6 +401,112 @@ export default function App() {
         </div>
       </section>
 
+            {/* Monitoring Section */}
+      <section id="monitoring" className="py-24 px-6 bg-[#1a1a1a] text-white">
+        <div className="max-w-7xl mx-auto">
+          <div className="mb-12">
+            <h2 className="text-4xl font-bold mb-4">Monitoring & Logging</h2>
+            <p className="text-lg text-gray-400 max-w-2xl">
+              Zentrale Überwachung der Infrastruktur sowie strukturierte Bearbeitung von Meldungen und Incidents.
+            </p>
+            <div className="w-20 h-1 bg-[#bce055] mt-6 rounded-full"></div>
+          </div>
+
+          <div className="grid lg:grid-cols-2 gap-8 items-stretch">
+            {/* Left: General Info */}
+            <div className="rounded-3xl bg-white/5 border border-white/10 p-8">
+              <div className="flex items-center gap-4 mb-8">
+                <div className="w-14 h-14 rounded-2xl bg-[#bce055]/15 flex items-center justify-center">
+                  <ShieldCheck className="text-[#bce055]" size={28} />
+                </div>
+                <div>
+                  <h3 className="text-2xl font-bold">Allgemeine Informationen</h3>
+                  <p className="text-sm text-gray-400">Placeholder-Inhalte für Monitoring-Konzept</p>
+                </div>
+              </div>
+
+              <div className="space-y-5 text-gray-300 leading-relaxed">
+                <p>
+                  Das Monitoring dient der laufenden Überwachung von Servern, Netzwerkkomponenten und zentralen Diensten.
+                  Dadurch können Ausfälle, Engpässe und Unregelmässigkeiten frühzeitig erkannt werden.
+                </p>
+                <p>
+                  Überwacht werden unter anderem die Erreichbarkeit der Systeme, Ressourcenauslastungen, kritische Dienste
+                  sowie definierte Status- und Warnmeldungen.
+                </p>
+                <p>
+                  Die erfassten Informationen bilden die Grundlage für einen stabilen, sicheren und nachvollziehbaren Betrieb
+                  der gesamten Hybrid-Cloud-Umgebung.
+                </p>
+              </div>
+
+              <div className="mt-8 grid sm:grid-cols-3 gap-4">
+                <div className="rounded-2xl bg-black/20 border border-white/10 p-4">
+                  <p className="text-sm text-gray-400 mb-1">Überwachung</p>
+                  <p className="font-semibold">Server & Netzwerk</p>
+                </div>
+                <div className="rounded-2xl bg-black/20 border border-white/10 p-4">
+                  <p className="text-sm text-gray-400 mb-1">Benachrichtigung</p>
+                  <p className="font-semibold">Per E-Mail</p>
+                </div>
+                <div className="rounded-2xl bg-black/20 border border-white/10 p-4">
+                  <p className="text-sm text-gray-400 mb-1">Weiterverarbeitung</p>
+                  <p className="font-semibold">Taiga Tickets</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Right: Beszel + Process */}
+            <div className="rounded-3xl bg-white/5 border border-white/10 p-8 flex flex-col justify-between">
+              <div>
+                <div className="flex items-center justify-between gap-4 mb-8">
+                  <div>
+                    <h3 className="text-2xl font-bold mb-2">Monitoring mit Beszel</h3>
+                    <p className="text-gray-400">
+                      Placeholder für App-Informationen und visuelle Einbindung.
+                    </p>
+                  </div>
+                  <div className="shrink-0 w-20 h-20 rounded-2xl bg-white p-3 flex items-center justify-center">
+                    <img
+                      src="https://beszel.dev/icon.png"
+                      alt="Beszel Logo"
+                      className="max-w-full max-h-full object-contain"
+                    />
+                  </div>
+                </div>
+
+                <div className="space-y-4">
+                  <div className="rounded-2xl bg-black/20 border border-white/10 p-5">
+                    <p className="text-sm uppercase tracking-wider text-gray-400 mb-2">Schritt 1</p>
+                    <h4 className="font-semibold text-lg mb-2">Erkennung einer Meldung</h4>
+                    <p className="text-gray-300">
+                      Beszel erkennt definierte Warnungen oder kritische Zustände innerhalb der Infrastruktur.
+                    </p>
+                  </div>
+
+                  <div className="rounded-2xl bg-black/20 border border-white/10 p-5">
+                    <p className="text-sm uppercase tracking-wider text-gray-400 mb-2">Schritt 2</p>
+                    <h4 className="font-semibold text-lg mb-2">Benachrichtigung per E-Mail</h4>
+                    <p className="text-gray-300">
+                      Nach Auslösung einer Meldung erfolgt die Benachrichtigung automatisiert per E-Mail an das zuständige Team.
+                    </p>
+                  </div>
+
+                  <div className="rounded-2xl bg-black/20 border border-white/10 p-5">
+                    <p className="text-sm uppercase tracking-wider text-gray-400 mb-2">Schritt 3</p>
+                    <h4 className="font-semibold text-lg mb-2">Logging & Ticketbearbeitung</h4>
+                    <p className="text-gray-300">
+                      Die weitere Bearbeitung und Nachverfolgung erfolgt anschliessend in unseren Taiga-Tickets, damit Incidents
+                      sauber dokumentiert und strukturiert abgearbeitet werden können.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Team Section */}
       <section id="team" className="py-24 px-6 bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto">
