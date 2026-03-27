@@ -20,7 +20,7 @@ const systems = {
     { name: 'Host Server', desc: 'Bereitstellung Proxmox', type: 'On-Premise' },
     { name: 'Active-Directory & Print-Server', desc: 'Zentrale Verteilung von Userdaten und Berechtigungen', type: 'On-Premise' },
     { name: 'Remote Desktop Server', desc: 'Zentrale Arbeitsumgebung für Administration und Dozierende', type: 'On-Premise' },
-    { name: 'Nextcloud Server', desc: 'Plattform für Dateiablage und Zusammenarbeit', type: 'On-Premise' },
+    { name: 'Nextcloud Server (SP Ersatz)', desc: 'Plattform für Dateiablage und Zusammenarbeit', type: 'On-Premise' },
     { name: 'Synology NAS', desc: 'Zentrale Datenspeicherung und Backup-System', type: 'On-Premise' },
     { name: 'Synology NAS Offsite-Backup', desc: 'Zentrales Off-Site Backup-System', type: 'On-Premise' },
   ],
@@ -468,7 +468,7 @@ export default function App() {
                   </div>
                   <div className="shrink-0 w-20 h-20 rounded-2xl bg-white p-3 flex items-center justify-center">
                     <img
-                      src="https://beszel.dev/icon.png"
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQaZ4JinuIdRLFOjlwd8DTnilx1reTU8_YaQ&s"
                       alt="Beszel Logo"
                       className="max-w-full max-h-full object-contain"
                     />
