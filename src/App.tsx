@@ -462,9 +462,6 @@ export default function App() {
                 <div className="flex items-center justify-between gap-4 mb-8">
                   <div>
                     <h3 className="text-2xl font-bold mb-2">Monitoring mit Beszel</h3>
-                    <p className="text-gray-400">
-                      Placeholder für App-Informationen und visuelle Einbindung.
-                    </p>
                   </div>
                   <div className="shrink-0 w-20 h-20 rounded-2xl bg-white p-3 flex items-center justify-center">
                     <img
