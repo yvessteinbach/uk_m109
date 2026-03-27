@@ -191,48 +191,57 @@ export default function App() {
         </div>
       </section>
 
-      {/* Overview Section */}
+      {/* Ausgangslage & Rahmenbedingungen */}
       <section id="overview" className="py-24 px-6 bg-white">
         <div className="max-w-7xl mx-auto">
           <SectionHeading 
-            title="Das Betriebskonzept" 
-            subtitle="Ein ganzheitlicher Ansatz für den stabilen, sicheren und effizienten Betrieb der IT-Infrastruktur."
+            title="Ausgangslage & Rahmenbedingungen" 
+            subtitle="Die bestehende Situation der Hochschule, die verbindlichen Datenschutzvorgaben und die daraus entwickelte Zielarchitektur."
           />
           
           <div className="grid md:grid-cols-3 gap-8">
             <div className="p-8 rounded-3xl bg-gray-50 border border-gray-100 hover:border-[#bce055] transition-colors">
               <div className="w-14 h-14 rounded-2xl bg-[#1a1a1a] text-[#bce055] flex items-center justify-center mb-6">
-                <ShieldCheck size={28} />
+                <Server size={28} />
               </div>
-              <h3 className="text-xl font-bold mb-4">Sicherheit & Zugriff</h3>
+              <h3 className="text-xl font-bold mb-4">Ausgangslage</h3>
               <p className="text-gray-600 leading-relaxed">
-                Umsetzung nach Least Privilege und RBAC. Zentrale Identitätsverwaltung über Active Directory und Microsoft Entra ID. Strenge Passwortrichtlinien und Multi-Factor Authentication.
+                Die Hochschule für Zahntechnik plante die Modernisierung ihrer bestehenden IT-Infrastruktur im Rahmen
+                einer digitalen Transformation. Ziel war es, die Administration zu optimieren und Schulungsunterlagen
+                zentral, strukturiert und ortsunabhängig für Lehrpersonen, Studierende und freiberufliche Dozierende
+                bereitzustellen.
               </p>
             </div>
             
             <div className="p-8 rounded-3xl bg-gray-50 border border-gray-100 hover:border-[#bce055] transition-colors">
               <div className="w-14 h-14 rounded-2xl bg-[#1a1a1a] text-[#bce055] flex items-center justify-center mb-6">
-                <FileText size={28} />
+                <ShieldCheck size={28} />
               </div>
-              <h3 className="text-xl font-bold mb-4">Backup & Restore</h3>
+              <h3 className="text-xl font-bold mb-4">Verbindliche Vorgaben</h3>
               <p className="text-gray-600 leading-relaxed">
-                Bewährte 3-2-1-Regel. Wöchentliche Vollbackups und tägliche inkrementelle Sicherungen auf Synology NAS vor Ort sowie Offsite-Backup bei KlixB IT.
+                Eine zentrale Projektvorgabe war die Einhaltung des Schweizer Datenschutzgesetzes. Sensible Daten,
+                insbesondere Schüler- und Prüfungsdaten, dürfen ausschliesslich innerhalb der Schweiz gespeichert
+                und verarbeitet werden. Zusätzlich mussten Zugriffe rollenbasiert, sicher und nachvollziehbar
+                organisiert werden.
               </p>
             </div>
-
+      
             <div className="p-8 rounded-3xl bg-gray-50 border border-gray-100 hover:border-[#bce055] transition-colors">
               <div className="w-14 h-14 rounded-2xl bg-[#1a1a1a] text-[#bce055] flex items-center justify-center mb-6">
                 <Network size={28} />
               </div>
-              <h3 className="text-xl font-bold mb-4">Betriebsprozesse</h3>
+              <h3 className="text-xl font-bold mb-4">Umgesetzte Lösung</h3>
               <p className="text-gray-600 leading-relaxed">
-                Zentrales Monitoring über Beszel. Strukturiertes Incident- und Problem-Management. Geplante Wartungsfenster für kritische und reguläre Updates.
+                Realisiert wurde eine hybride Infrastruktur mit lokal betriebenen Kernsystemen wie Host-Server,
+                Active Directory, Remote Desktop Server, Nextcloud und NAS sowie ergänzenden Cloud-Diensten
+                wie Microsoft Entra ID und Azure. Dadurch werden Datenschutz, zentrale Benutzerverwaltung,
+                Zusammenarbeit und ein sicherer externer Zugriff optimal kombiniert.
               </p>
             </div>
           </div>
         </div>
       </section>
-
+      
       {/* Implementation Steps Section */}
       <section className="py-24 px-6 bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto">
@@ -421,7 +430,7 @@ export default function App() {
                 </div>
                 <div>
                   <h3 className="text-2xl font-bold">Allgemeine Informationen</h3>
-                  <p className="text-sm text-gray-400">Placeholder-Inhalte für Monitoring-Konzept</p>
+                  <p className="text-sm text-gray-400">Detaillierte Informationen zur Erkennung, Verarbeitung und Behebung von Meldungen.</p>
                 </div>
               </div>
 
