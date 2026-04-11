@@ -62,9 +62,9 @@ const offerItems = [
 ];
 
 const team = [
-  { name: 'Yves TEst 1234343434 asasa', role: 'Projektleiter', img: 'https://api.dicebear.com/7.x/avataaars/svg?seed=1203' },
-  { name: 'Colin Eck', role: 'System Engineer', img: 'https://api.dicebear.com/7.x/avataaars/svg?seed=6' },
-  { name: 'Leon Art', role: 'System Engineer', img: 'https://api.dicebear.com/7.x/avataaars/svg?seed=8' },
+  { name: 'Yves Steinbach', role: 'Projektleiter', img: 'https://api.dicebear.com/7.x/avataaars/svg?seed=1203' },
+  { name: 'Colin Eckerlin', role: 'System Engineer', img: 'https://api.dicebear.com/7.x/avataaars/svg?seed=6' },
+  { name: 'Leon Artime', role: 'System Engineer', img: 'https://api.dicebear.com/7.x/avataaars/svg?seed=8' },
 ];
 
 // --- COMPONENTS ---
