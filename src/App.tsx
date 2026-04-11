@@ -38,7 +38,7 @@ const systems = {
     { name: 'SharePoint', desc: 'Dateiablage und Zusammenarbeit', type: 'Cloud' },
   ],
   security: [
-    { name: 'Beszel', desc: 'Überwachung von Servern, Netzwerk und Diensten', type: 'On-Premise' },
+    { name: 'Beszel', desc: 'Monitoring von Servern, Netzwerk und Diensten', type: 'On-Premise' },
     { name: 'Windows Defender', desc: 'Endpoint Protection für Clients und Server', type: 'On-Premise' },
     { name: 'Patchmanagement', desc: 'Verwaltung und Installation von Updates', type: 'KlixB IT' },
   ]
