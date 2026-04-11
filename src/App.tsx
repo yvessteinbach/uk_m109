@@ -62,7 +62,7 @@ const offerItems = [
 ];
 
 const team = [
-  { name: 'YVESSSSSSSSS', role: 'Projektleiter', img: 'https://api.dicebear.com/7.x/avataaars/svg?seed=1203' },
+  { name: 'Yves TEst 1234343434 asasa', role: 'Projektleiter', img: 'https://api.dicebear.com/7.x/avataaars/svg?seed=1203' },
   { name: 'Colin Eck', role: 'System Engineer', img: 'https://api.dicebear.com/7.x/avataaars/svg?seed=6' },
   { name: 'Leon Art', role: 'System Engineer', img: 'https://api.dicebear.com/7.x/avataaars/svg?seed=8' },
 ];
